@@ -1,4 +1,0 @@
-function verificarDivisivel() {
-    return null;
-}
-

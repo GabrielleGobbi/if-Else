@@ -1,3 +1,0 @@
-function somaMaiorQueCinquenta() {
-    return null;
-}

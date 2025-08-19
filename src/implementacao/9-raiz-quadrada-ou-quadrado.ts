@@ -1,4 +1,0 @@
-function calcularRaizOuQuadrado() {
-    return null;
-}
-

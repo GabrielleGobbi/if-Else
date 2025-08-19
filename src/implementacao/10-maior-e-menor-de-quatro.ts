@@ -1,4 +1,0 @@
-function determinarMaiorMenorDeQuatro() {
-    return null;
-}
-

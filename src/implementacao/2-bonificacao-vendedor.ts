@@ -1,4 +1,0 @@
-function calcularBonificacao() {
-    return null;
-}
-

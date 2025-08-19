@@ -1,4 +1,0 @@
-function ordenarAscendente() {
-    return null;
-}
-

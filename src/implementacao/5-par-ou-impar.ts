@@ -1,4 +1,0 @@
-function verificarParOuImpar() {
-    return null;
-}
-

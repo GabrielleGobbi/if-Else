@@ -1,4 +1,0 @@
-function verificarNumero() {
-    return null;
-}
-

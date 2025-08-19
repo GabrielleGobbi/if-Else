@@ -1,8 +1,8 @@
-# Condicionais-IF-ELSE
+# if else
 
-Lista de exercicios de if-else com typescript
+Lista de exercicios if else
 
-Uso obrigatório de laços de condicionais: Todos os exercícios desta lista devem obrigatoriamente utilizar condicionais (if, if-else, else-if etc). Evite ao máximo o uso de métodos prontos do JavaScript. O objetivo é que você implemente a lógica de condicionais manualmente.
+Uso obrigatório de if e else
 
 Tipagem: Lembre-se de sempre tipar corretamente todas as variáveis, parâmetros e retornos das funções. 
 
@@ -12,7 +12,7 @@ Respeito às boas práticas de código: Procure manter o código limpo e organiz
 
 # Instalação
 
-- Acesse o repositório: https://github.com/aceleradora-TW/Condicionais-IF-ELSE
+- Acesse o repositório: https://github.com/GabrielleGobbi/ifElse.git
 - Em seguida faça um fork dele
 - Clone na sua máquina
 - Instale as dependências usando o comando ``npm install``
@@ -21,4 +21,14 @@ Respeito às boas práticas de código: Procure manter o código limpo e organiz
 
 - Leia com atenção os exercicios dentro da pasta enunciados 
 - Crie a lógica de cada exercicio dentro da pasta implementacao
-- Para rodar um exercicio especifico dentro da pasta implementacao é necessário usar o comando ``npm run start -- nome-do-arquivo.ts``
+- Para verificar se suas implementações passaram, execute os testes pelo botão de Play (Code Runner) no VS Code.
+- Abra um arquivo de exercício ou um arquivo de teste.
+- Clique no ícone ▶ no canto superior direito do editor.
+
+   
+O script custom-test-results-processor.js exibirá no terminal uma mensagem de sucesso, caso passe no teste ou uma mensagem de insucesso, caso falhe.
+
+## Observações
+Tipagem: Lembre-se de sempre tipar corretamente todas as variáveis, parâmetros e retornos das funções. 
+
+

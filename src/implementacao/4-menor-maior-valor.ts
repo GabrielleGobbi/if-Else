@@ -1,4 +1,0 @@
-function determinarMenorMaior() {
-    return null;
-}
-

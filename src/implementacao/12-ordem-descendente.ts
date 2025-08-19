@@ -1,3 +1,0 @@
-function ordenarDescendente() {
-    return null;
-}

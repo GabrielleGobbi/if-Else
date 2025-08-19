@@ -1,4 +1,0 @@
-function somaComAjuste() {
-    return null;
-}
-

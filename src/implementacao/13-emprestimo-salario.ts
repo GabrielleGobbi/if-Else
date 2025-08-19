@@ -1,3 +1,0 @@
-function verificarEmprestimo() {
-    return null;
-}
