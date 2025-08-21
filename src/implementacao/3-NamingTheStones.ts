@@ -1,3 +1,3 @@
-export function NamingTheStones(a: number, b: number, c: number): string {
+export function NamingTheStones(ladoA: number, ladoB: number): string {
 
 }
