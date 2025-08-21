@@ -1,19 +1,19 @@
 import { NamingTheStones } from '../src/implementacao/3-NamingTheStones';
 
-describe('ordenarAscendente', () => {
-  test('deve ordenar 3, 1, 2 em ordem crescente', () => {
-    expect(NamingTheStones(3, 1, 2)).toBe("1, 2, 3");
+describe('NamingTheStones - Buchas de Dominó', () => {
+  test('deve identificar uma bucha de terno', () => {
+    expect(NamingTheStones(3, 3)).toBe("Bucha de Terno");
   });
 
-  test('deve manter números iguais na mesma ordem', () => {
-    expect(NamingTheStones(7, 7, 7)).toBe("7, 7, 7");
+  test('deve identificar uma bucha de sena', () => {
+    expect(NamingTheStones(6, 6)).toBe("Bucha de Sena");
   });
 
-  test('deve ordenar números já em ordem crescente', () => {
-    expect(NamingTheStones(1, 2, 3)).toBe("1, 2, 3");
+  test('deve identificar uma bucha de ás', () => {
+    expect(NamingTheStones(1, 1)).toBe("Bucha de Ás");
   });
 
-  test('deve ordenar números em ordem decrescente', () => {
-    expect(NamingTheStones(9, 5, 1)).toBe("1, 5, 9");
+  test('deve retornar NÃO quando não for bucha', () => {
+    expect(NamingTheStones(2, 5)).toBe("NÃO");
   });
 });
