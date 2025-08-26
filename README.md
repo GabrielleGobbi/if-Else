@@ -12,7 +12,7 @@ Respeito às boas práticas de código: Procure manter o código limpo e organiz
 
 # Instalação
 
-- Acesse o repositório: https://github.com/aceleradora-TW/exercicios-if-else)
+- Acesse o repositório: https://github.com/aceleradora-TW/exercicios-if-else
 - Em seguida faça um fork dele
 - Clone na sua máquina
 - Instale as dependências usando o comando ``npm install``
