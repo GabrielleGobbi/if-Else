@@ -2,26 +2,23 @@
 
 ## Isenção de impostos
 
-Segundo a receita federal, algumas pessoas são isentas do pagamento de imposto de renda (IR). Simplificamos aqui quem são essas pessoas:
+Todos os anos os cidadãos brasileiros e pessoas com residência permanente devem declarar o Imposto de Renda. Segundo a Receita Federal, algumas pessoas estão isentas do pagamento de imposto de renda (IR). Abaixo segue uma lista simplificada das pessoas isentas:
 
-- Pessoas portadores de alguma doença grave
-- Pessoas que já estão aposentadas
-- Para pessoa não esteja isenta, avalia-se seus rendimentos tributáveis ao longo do ano. Na condição em que o total de rendimentos seja **superior** a R$ 28.559,70, a pessoa deve pagar imposto de renda, caso contrário, não.
+Pessoas com renda mensal menor ou igual a R$ 3.036,00 reais
 
-Faça um programa que determine se a pessoa deve pagar IR ou não.
+Pessoas com rendimentos tributáveis de até R$ 33.888,00 reais ao ano;
 
-- Caso a pessoa não deva pagar IR por pertencer ao grupo de pessoas isentas, imprima na tela **ISENTA**
-- Caso a passoa não deva pagar IR por nao ter o rendimento mínimo necessário, imprima na tela **VAZA LEAO! JA TA DIFICIL SEM VOCE**
-- Caso a pessoa deva pegar IR imprima na tela **PEGA LEAO**
+Aposentados e pensionistas com doenças graves previstas em lei.
 
-```javascript
-const aposentada = false;
-const portadoraDeDoenca = false;
-const totalDeRendimentos = 3000000; //emCentavos
+Faça um programa que determine, com base nos critérios acima, se a pessoa está ou não isenta de pagar o imposto de renda. Caso a pessoa pertença ao grupo de isenção o programa deve imprimir na tela: ISENTA, caso a pessoa deva pegar IR imprima na tela: PEGA LEAO
 
-//seu código aqui
-```
+    const aposentada = false;
 
-Neste exemplo a resposta correta é `PEGA LEAO`.
+    const portadoraDeDoenca = false;
+
+    const totalDeRendimentos = 34000;
+
+    //seu código aqui
+​Neste exemplo a resposta correta é PEGA LEAO
 
 Teste seu programa para outras variações da entrada.
